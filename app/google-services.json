@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "258886543913",
+    "project_id": "allo24",
+    "storage_bucket": "allo24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258886543913:android:bb8075ba5ca74262118a38",
+        "android_client_info": {
+          "package_name": "com.apps.allo24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258886543913-r3ohfens2r9n51unf4mbu43aq5ejghbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.allo24",
+            "certificate_hash": "6d39e57f3c880ad5ec12fe731d3e4a908fca8758"
+          }
+        },
+        {
+          "client_id": "258886543913-44sgtneemkthldfoug8p4kcab1rt6nts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzOKYG320e2rLCBpF4zPwkLThdsSvd4hQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258886543913-44sgtneemkthldfoug8p4kcab1rt6nts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
