@@ -76,10 +76,10 @@ public class IntroSliderActivity extends AppCompatActivity {
     private void initView() {
 
         preferences = Preferences.getInstance();
-        binding.tab.setupWithViewPager(binding.pager);
         adapter = new IntroAdapter(this);
         binding.pager.setAdapter(adapter);
         binding.pager.setOffscreenPageLimit(3);
+        binding.tab.setViewPager(binding.pager);
 
 
         if (type==0){
