@@ -3,7 +3,7 @@ package com.apps.allo24.tags;
 import android.os.Environment;
 
 public class Tags {
-    public static String base_url = "https://emdad.sa.com/";
+    public static String base_url = "http://emdad.eparfum.net/";
     public static final String IMAGE_URL= base_url+"storage/";
     public static final String IMAGE_Places_URL = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=";
     public static final String sign_up_driver_success = base_url+"register/success";

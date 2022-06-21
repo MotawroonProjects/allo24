@@ -188,14 +188,20 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void refreshActivity() {
-        Paper.init(this);
+       // Log.e("dkdfkdk",lang);
+       // Paper.init(this);
         Paper.book().write("lang",lang);
+        Language.updateResources(this,lang);
         DefaultSettings defaultSettings = new DefaultSettings();
         defaultSettings.setLanguageSelected(true);
         preferences.createUpdateAppSetting(this,defaultSettings);
-        Intent intent = getIntent();
-        finish();
-        startActivity(intent);
+        new Handler()
+                .postDelayed(() -> {
+
+                    Intent intent = getIntent();
+                    finish();
+                    startActivity(intent);
+                }, 500);
 
     }
 
