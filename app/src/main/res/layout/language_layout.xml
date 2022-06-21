@@ -15,7 +15,7 @@
             android:id="@+id/image"
             android:layout_width="match_parent"
             android:layout_height="280dp"
-            android:src="@drawable/language_bottom"
+            android:src="@drawable/splash_bottom"
             android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
 
